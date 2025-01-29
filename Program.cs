@@ -8,13 +8,15 @@ class Program
     {
         Raylib.InitWindow(1280, 720, "Hello World");
         Raylib.SetTargetFPS(60);
+        
+        Rectangle rect = new Rectangle(500, 500, 100, 100);
 
         while (!Raylib.WindowShouldClose())
         {
             Raylib.BeginDrawing();
-            Raylib.ClearBackground(Color.White);
+            Raylib.ClearBackground(Color.Red);
 
-            Raylib.DrawText("Hello, world!", 12, 12, 20, Color.Black);
+            Raylib.DrawRectangleRec(rect, Color.White);
 
             Raylib.EndDrawing();
         }
