@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\VisualStudio\\RaylibGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|c:\\visualstudio\\raylibgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|c:\\visualstudio\\raylibgame\\cameracenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|solutionrelative:cameracenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|c:\\visualstudio\\raylibgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|c:\\visualstudio\\raylibgame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|c:\\visualstudio\\raylibgame\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553CE078-BB9A-4667-B533-6160ED95ADF7}|RaylibGame.csproj|solutionrelative:constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\VisualStudio\\RaylibGame\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\VisualStudio\\RaylibGame\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\RaylibGame\\Constants.cs",
+              "RelativeDocumentMoniker": "Constants.cs",
+              "ToolTip": "C:\\VisualStudio\\RaylibGame\\Constants.cs",
+              "RelativeToolTip": "Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T22:56:00.015Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-30T22:02:58.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraCenter.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\RaylibGame\\CameraCenter.cs",
+              "RelativeDocumentMoniker": "CameraCenter.cs",
+              "ToolTip": "C:\\VisualStudio\\RaylibGame\\CameraCenter.cs",
+              "RelativeToolTip": "CameraCenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T21:51:01.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\VisualStudio\\RaylibGame\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\VisualStudio\\RaylibGame\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:56:00.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VisualStudio\\RaylibGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\VisualStudio\\RaylibGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T21:50:12.557Z",
               "EditorCaption": ""
