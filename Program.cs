@@ -9,14 +9,14 @@ class Program
         Raylib.InitWindow(1280, 720, "Hello World");
         Raylib.SetTargetFPS(60);
         
-        Rectangle rect = new Rectangle(500, 500, 100, 100);
+        Player player = Player.GetInstance();
 
         while (!Raylib.WindowShouldClose())
         {
             Raylib.BeginDrawing();
-            Raylib.ClearBackground(Color.Red);
+            Raylib.ClearBackground(Color.Black);
 
-            Raylib.DrawRectangleRec(rect, Color.White);
+            player.Update();
 
             Raylib.EndDrawing();
         }
