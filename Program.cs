@@ -18,6 +18,8 @@ class Program
 
         CameraCenter camera = new(player);
 
+        Vector2 VBack = new (0, 0);
+
         while (!Raylib.WindowShouldClose())
         {
             //delta time during frames
@@ -29,15 +31,19 @@ class Program
 
             //draw
             Raylib.BeginDrawing();
-            Raylib.ClearBackground(Color.LightGray);
+                Raylib.ClearBackground(Color.LightGray);
 
-            Raylib.BeginMode2D(camera.getCamera());
+                Raylib.DrawTextureV(background, VBack, Color.White);
+
+                //Raylib.BeginMode2D(camera.getCamera());
             
-            player.Draw();
+                player.Draw();
 
-            Raylib.EndMode2D();            
+                //Raylib.EndMode2D();            
             Raylib.EndDrawing();
         }
+
+        Raylib.UnloadTexture(background);
 
         Raylib.CloseWindow();
     }

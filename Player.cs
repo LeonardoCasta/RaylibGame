@@ -9,7 +9,7 @@ namespace RaylibGame
         private static int Height { get; set; } = 100;
         private static int PosX { get; set; } = 100;
         private static int PosY { get; set; } = 100;
-        private static float Speed { get; set; } = 100;
+        private static float Speed { get; set; } = 200;
         private static float Acceleration { get; set; } = 1;
 
         private static Rectangle player = new (PosX, PosY, Width, Height);
@@ -26,22 +26,28 @@ namespace RaylibGame
             //up down
             if (Raylib.IsKeyDown(KeyboardKey.W))
             {
-                player.X -= deltaTime * Speed;
+                player.Y -= deltaTime * Speed;
+                Console.WriteLine("W");
             }
             if (Raylib.IsKeyDown(KeyboardKey.S))
             {
-                player.X += deltaTime * Speed;
+                player.Y += deltaTime * Speed;
+                Console.WriteLine("S");
             }
 
             //right left
             if (Raylib.IsKeyDown(KeyboardKey.A))
             {
-                player.Y -= deltaTime * Speed;
+                player.X -= deltaTime * Speed;
+                Console.WriteLine("A");
             }
             if (Raylib.IsKeyDown(KeyboardKey.D))
             {
-                player.Y += deltaTime * Speed;
+                player.X += deltaTime * Speed;
+                Console.WriteLine("D");
             }
+
+            Console.WriteLine($"{player.X} {player.Y}");
         }
 
         public void Draw()

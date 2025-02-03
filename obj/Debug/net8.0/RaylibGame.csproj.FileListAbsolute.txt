@@ -17,3 +17,4 @@ C:\VisualStudio\RaylibGame\bin\Debug\net8.0\Raylib-cs.pdb
 C:\VisualStudio\RaylibGame\bin\Debug\net8.0\Raylib-cs.xml
 C:\VisualStudio\RaylibGame\obj\Debug\net8.0\RaylibGame.csproj.AssemblyReference.cache
 C:\VisualStudio\RaylibGame\obj\Debug\net8.0\RaylibGame.csproj.Up2Date
+C:\VisualStudio\RaylibGame\obj\Debug\net8.0\RaylibGame.sourcelink.json
